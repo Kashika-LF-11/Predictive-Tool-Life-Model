@@ -2,26 +2,6 @@
 A complete repository for training, preprocessing, and deploying the Predictive Tool Life Model. Includes scripts for training and inference, real-time &amp; batch preprocessing, and detailed documentation for the infra team.
 
 
-## Repository Structure
-Predictive-Tool-Life-Model/
-├── README.md
-├── docs/
-│   └── Predictive Tool Life Model.pdf
-├── sagemaker_training/
-│   ├── src/ 
-│       └── train.py
-│   └── build_and_push.sh
-│   └── create_training_job.py
-│   └── Dockerfile
-│   └── job_config.yaml
-│   └── Pipfile
-│   └── Pipfile.lock
-├── data_preprocessing/
-│   ├── preprocess_inference.py
-│   └── preprocess_train.py
-└── inference_function.py 
-
-
 ---
 
 
