@@ -1,0 +1,16 @@
+training:
+  instance_type: ml.c4.xlarge # This is the most basic instance type in Sagemaker Training (compute optimized)
+  instance_count: 1
+  volume_size: 30 # Remember this is in GB
+  max_runtime: 3600 # In seconds, 1 hour
+
+s3:
+  output_bucket: TLM_Models
+
+job:
+  role_arn: ...
+  image_uri: ...
+  region: us-east-1
+
+hyperparameters:
+  feature_columns: 
